@@ -1,0 +1,109 @@
+header {
+  display: flex;
+  background-color: gainsboro;
+  margin: -10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* height: 130px; */
+}
+
+nav {
+  margin: 110px 10px 10px 600px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+.NameOfClinic {
+  margin: 10px;
+}
+.VieportBackground {
+  background-image: url(Img/pexels-fr3nks-287237.jpg);
+  background-size: cover;
+  background-position: center;
+  width: vw;
+  height: 6in;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  margin: -8px;
+}
+.VpContent {
+  text-align: center;
+  margin: -5px;
+  padding-top: 180px;
+  padding-left: 20px;
+  background-color: rgba(234, 229, 255, 0.3);
+  /* font-size: 20px; */
+}
+.VpContent p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.AppoinmetIcon {
+  display: flex;
+  justify-content: right;
+}
+.AppoinmetIcon p {
+  margin-top: -12px;
+  margin-right: 60px;
+}
+.AllServices {
+  display: grid;
+  font-size: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 5px;
+}
+.OurServicesSection {
+  text-align: center;
+  font-size: large;
+}
+.Service {
+  border: 3px;
+  /* margin: 80px; */
+  background-color: aliceblue;
+  /* padding: 5px; */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.Service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+h3,
+h2 {
+  color: blue;
+}
+footer {
+  
+  font-size: large;
+  background-color: burlywood;
+
+  margin: 50px -8px -8px -8px;
+}
+
+.infoLinks {
+  padding: 30px;
+  text-align: right;
+  margin-top: -150px;
+}
+.SocialLinks {
+  padding: 5px;
+}
+.ClinicName {
+  text-align: center;
+}

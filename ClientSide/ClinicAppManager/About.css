@@ -1,0 +1,128 @@
+header {
+  display: flex;
+  background-color: gainsboro;
+  margin: -10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* height: 130px; */
+}
+
+nav {
+  margin: 110px 10px 10px 600px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+.NameOfClinic {
+  margin: 10px;
+}
+
+.About {
+  /* background-color: gray; */
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.About h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.About p {
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.doctors-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.doctors-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.doctor-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.doctor-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+
+.doctor-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.doctor-card button {
+  background-color: #0a7fd2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.doctor-card button:hover {
+  background-color: #055fa3;
+}
+
+footer {
+  font-size: large;
+  background-color: burlywood;
+
+  margin: 50px -8px -8px -8px;
+}
+
+.infoLinks {
+  padding: 30px;
+  text-align: right;
+  margin-top: -150px;
+}
+.SocialLinks {
+  padding: 5px;
+}
+.ClinicName {
+  text-align: center;
+}
